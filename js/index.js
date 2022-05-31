@@ -64,8 +64,7 @@ const getYTLink = async (songName, index) => {
 
   const page = await browser.newPage();
 
-  const playlist_url =
-    "https://open.spotify.com/playlist/4RDrmTNCs7KTcsDUX1j6ap";
+  const playlist_url = ""; // or use mine playlist "https://open.spotify.com/playlist/4RDrmTNCs7KTcsDUX1j6ap"
 
   await page.setViewport({ width: 0, height: 0 });
 
